@@ -160,15 +160,6 @@ def solve2(x1, y1, r1, x2, y2, r2, x3, y3, r3, s1, s2, s3):
     return xs, ys, rs
 
 if __name__ == "__main__":
-    # x1 = float(input("x1: "))
-    # y1 = float(input("y1: "))
-    # r1 = float(input("r1: "))
-    # x2 = float(input("x2: "))
-    # y2 = float(input("y2: "))
-    # r2 = float(input("r2: "))
-    # x3 = float(input("x3: "))
-    # y3 = float(input("y3: "))
-    # r3 = float(input("r3: "))
     x1 = 30
     y1 = 3
     r1 = 3
@@ -178,6 +169,16 @@ if __name__ == "__main__":
     x3 = 14
     y3 = 0
     r3 = 10
+
+    # x1 = input("x1: ")
+    # y1 = input("y1: ")
+    # r1 = input("r1: ")
+    # x2 = input("x2: ")
+    # y2 = input("y2: ")
+    # r2 = input("r2: ")
+    # x3 = input("x3: ")
+    # y3 = input("y3: ")
+    # r3 = input("r3: ")
 
     # convert variables to float
     x1 = float(x1)
