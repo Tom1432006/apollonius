@@ -160,13 +160,13 @@ def solve2(x1, y1, r1, x2, y2, r2, x3, y3, r3, s1, s2, s3):
     return xs, ys, rs
 
 if __name__ == "__main__":
-    x1 = 30
+    x1 = 35
     y1 = 3
-    r1 = 3
-    x2 = 23
-    y2 = 12
+    r1 = 5
+    x2 = 25
+    y2 = 20
     r2 = 6
-    x3 = 14
+    x3 = 5
     y3 = 0
     r3 = 10
 
@@ -200,7 +200,7 @@ if __name__ == "__main__":
             aspect=1)
 
     # store the cicle coordinates in a list
-    coordinates = [(x1, y2), (x2, y2), (x3, y3)]
+    coordinates = [(x1, y1), (x2, y2), (x3, y3)]
     scales = [r1, r2, r3]
 
     for i in range(3):
